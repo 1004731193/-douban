@@ -1,0 +1,45 @@
+/* pages/comment/comment.wxss */
+.detail-container{
+  height: 400rpx;
+  opacity: 0.9; /*透明度*/
+  /*模糊 滤镜*/
+  filter:blur(40rpx)
+}
+.detail-mask{
+  width: 100%;
+  height: 400rpx;
+  background: #333;
+  position: absolute;
+  top:0; left:0; 
+  z-index: -1;
+}
+.detail-info{
+  position: absolute;
+  width: 100%;
+  height: 400rpx;
+  top:0; left: 0;
+  display: flex;
+  padding: 20rpx;
+}
+.detail-img{
+  width: 280rpx;
+  height: 90%;
+  margin-right: 24rpx;
+}
+.detail{
+  line-height: 60rpx;
+}
+.detail view{
+  color:#FFF;
+  font-size: 24rpx;
+}
+.desc{
+  color:#555;
+  font-size:24rpx;
+  padding: 20rpx;
+}
+.comment-img{
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 20rpx;
+}

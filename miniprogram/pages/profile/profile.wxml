@@ -1,0 +1,10 @@
+<!--pages/profile/profile.wxml-->
+<text>pages/profile/profile.wxml</text>
+<!--- 获取用户信息annual -->
+<button open-type="getUserInfo"
+  bindgetuserinfo="getUser3"
+>获取用户信息</button>
+<!-- 创建view  显示昵称 -->
+<view>{{nickName}}</view>
+<!-- 创建image保存头像 -->
+<image src="{{imgUrl}}"></image>
